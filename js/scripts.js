@@ -2,6 +2,10 @@ $(document).ready(function() {
   $(".factorial").submit(function(event) {
     event.preventDefault();
 
-    $(".final-number").text(false);
+    let initialNumber = $("input#number-input").val();
+    let multiplyByN = $("input#number-input").val();
+    let result = factorial(initialNumber, multiplyByN);
+    $(".result").text(result);
+
   });
 });
