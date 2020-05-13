@@ -25,17 +25,16 @@ $(document).ready(function() {
     let initialNumber = parseInt($("input#number-input").val());
     let multiplyByN = parseInt($("input#number-input").val());
     let result = factorial(initialNumber, multiplyByN);
-    $(".number-input").text(result);
 
-    // $(".number-input").text(initialNumber);
+    if (!result) {
+      $(".final-number").text("N/A");
+      $(".number-input").text(initialNumber);
+    } else {
+      $(".number-input").text(initialNumber);
+      $(".final-number").text(result);
+    }
 
-    // if (!result) {
-    //   $(".final-number").text("N/A");
-    // } else {
-    //   (".final-number").text(result);
-    // }
-
-
+    $("#result").show();
 
   });
 });
