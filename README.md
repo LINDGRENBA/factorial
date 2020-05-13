@@ -21,17 +21,17 @@ At this time there are no known bugs.
 
 ## Specifications
 
-Behavior-(Our program should handle): A positive number
-Input Example-(When it recieves): 5!
-Output Example-(It should return):  true / 120
-
 Behavior-(Our program should handle): A negative number
 Input Example-(When it recieves): -5
-Output Example-(It should return):  false / program does not run   
+Output Example-(It should return):  false / program does not run 
 
 Behavior-(Our program should handle): The factorial of 0 should = 1  
 Input Example-(When it recieves): 0!
-Output Example-(It should return):  1 
+Output Example-(It should return):  true - run program / result = 1 
+
+Behavior-(Our program should handle): A positive number
+Input Example-(When it recieves): 5!
+Output Example-(It should return):  true - run program / result = 120  
 
 ### Definition of a factorial from Epicodus online curriculum
 
