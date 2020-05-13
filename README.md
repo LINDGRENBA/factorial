@@ -25,17 +25,20 @@ A factorial is an operator that multiplies a number by all of the positive integ
 
 ## Specifications
 
-Behavior-(Our program should handle): A negative number
-Input Example-(When it recieves): -5
-Output Example-(It should return):  false / program does not run 
+#### Spec 1
+* Behavior: Our program should handle a negative number
+* Input Example: When it recieves -5
+* Output Example: It should return false / program does not run 
 
-Behavior-(Our program should handle): The factorial of 0 should = 1  
-Input Example-(When it recieves): 0!
-Output Example-(It should return):  true - run program / result = 1 
+#### Spec 2
+* Behavior: Our program should handle 0 
+* Input Example: When it recieves 0!
+* Output Example: It should return true / run program / result = 1 
 
-Behavior-(Our program should handle): A positive number
-Input Example-(When it recieves): 5!
-Output Example-(It should return):  true - run program / result = 120  
+#### Spec 3
+* Behavior: Our program should handle a positive number
+* Input Example: When it recieves 5!
+* Output Example: It should return true / run program / result = 120  
 
 ## Support and contact details
 
