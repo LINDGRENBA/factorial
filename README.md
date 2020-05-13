@@ -19,6 +19,10 @@ Use BDD to write specifications for a program that will return the factorial of 
 
 At this time there are no known bugs.
 
+## Definition of a factorial from Epicodus online curriculum
+
+A factorial is an operator that multiplies a number by all of the positive integers less than that number.
+
 ## Specifications
 
 Behavior-(Our program should handle): A negative number
@@ -32,10 +36,6 @@ Output Example-(It should return):  true - run program / result = 1
 Behavior-(Our program should handle): A positive number
 Input Example-(When it recieves): 5!
 Output Example-(It should return):  true - run program / result = 120  
-
-### Definition of a factorial from Epicodus online curriculum
-
-A factorial is an operator that multiplies a number by all of the positive integers less than that number.
 
 ## Support and contact details
 
