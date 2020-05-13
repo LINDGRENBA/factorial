@@ -1,7 +1,7 @@
 // function to do business logic
 let factorial = function(initialNumber, multiplyByN) {
-  if (initialNumber >= 0) {
-  return true;
+  if (initialNumber === 0) {
+  return 1;
   } else {
   return false;
   }
