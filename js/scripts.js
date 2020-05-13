@@ -1,3 +1,10 @@
+// function to do business logic
+let factorial = function(initialNumber, multiplyByN) {
+  return false;
+}
+
+
+// jQuery user interface logic
 $(document).ready(function() {
   $(".factorial").submit(function(event) {
     event.preventDefault();
@@ -5,7 +12,7 @@ $(document).ready(function() {
     let initialNumber = $("input#number-input").val();
     let multiplyByN = $("input#number-input").val();
     let result = factorial(initialNumber, multiplyByN);
-    $(".result").text(result);
+    $(".final-number").text(result);
 
   });
 });
